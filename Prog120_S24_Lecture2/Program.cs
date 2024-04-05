@@ -5,29 +5,43 @@
 
         static void Main(string[] args)
         {
-            // Debugger
+            // Console.ReadLine();
 
-            // Concatenate
-            // Adding two strings together to form one long string
-            string firstName = "Will";
-            string lastName = "Cram";
-            
- 
-            Console.Write(firstName + " " + lastName);
+            // Asked for the users name
+            Console.Write("Enter your name: ");
+            // string variable to hold value that is being returned from Console.ReadLine();
+            string userName = Console.ReadLine();
 
-            string fullName = firstName + " " + lastName;
-            Console.WriteLine(fullName);
+            // Ask for the date
+            Console.Write("What is the date? ");
+            string userDate = Console.ReadLine();
+            // $ - String Interpolation
+            // $"{placeholder}"
 
-            firstName = "Vitalli";
-            lastName = "Bobyr";
-            fullName = firstName + " " + lastName;
+            // Ask for the class
+            Console.Write("What is the class? ");
+            string userClass = Console.ReadLine();
 
-            Console.WriteLine(fullName);
+            // William Cram
+            // 04 04 2024
+            // Programming 1
+            Console.WriteLine("// " + userName);
+            Console.WriteLine($"//  {userDate}");
+            Console.WriteLine($"// {userClass}");
 
-            // Console.ReadLine()
+            //Console.WriteLine("// " + userName);
+            //Console.WriteLine($"//  {DateTime.Now.ToLongDateString()}");
+            //Console.WriteLine($"// {userClass}");
+            // $ 
+            // @
+
+            // Console.ReadKey();
 
         } // End of Main
 
+          // Will Cram
+          //  04 04 24
+          // Programming 1
         public static void StringExample()
         {
             // Variables
@@ -62,6 +76,27 @@
 
             Console.Write("Hello, ");
             Console.WriteLine(teachersName);
+
+            // Debugger
+            // git commit -m "Update"
+            // Concatenate
+            // Adding two strings together to form one long string
+            string firstName = "Will";
+            string lastName = "Cram";
+
+
+            Console.Write(firstName + " " + lastName);
+
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine(fullName);
+
+            firstName = "Vitalli";
+            lastName = "Bobyr";
+            fullName = firstName + " " + lastName;
+
+            Console.WriteLine(fullName);
+
+            // Console.ReadLine()
         } // End of String Example
 
         // public static void Name() { }
